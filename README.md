@@ -31,5 +31,6 @@ jdk + Tomcat + Mysql + Webstorm（前端框架） + Intellij IDEA（ide）
 
 ## 项目文档查找
 
-[可行性分析（研究）报告（FAR）ver](文档/可行性分析(研究)报告(FAR)ver.pdf)
+[可行性分析（研究）报告（FAR）ver](文档/报告/可行性分析(研究)报告(FAR)ver.pdf可行性分析(研究)报告(FAR)ver.pdf)
+[可行性分析报告成员分工情况](文档/报告/成员分工情况（可行性分析报告）.txt)
 
