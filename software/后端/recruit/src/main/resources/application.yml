@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/recruit
+    username: root
+    password: ailajiang.1
+  servlet:
+    multipart:
+      max-file-size: 5MB
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  thymeleaf:
+    cache: false
+
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true #开启下划线和驼峰命名自动转换
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+  port: 8080
+  address: localhost
+
+mybatis-plus:
+  configuration:
+    default-enum-type-handler: com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+
